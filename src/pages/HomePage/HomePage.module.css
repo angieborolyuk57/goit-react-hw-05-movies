@@ -1,0 +1,41 @@
+.container {
+    padding: 0 15px;
+}
+
+.trandingMoviesTitle {
+    margin-bottom: 20px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.movieList {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.movieListItem:hover .poster {
+    box-shadow: 10px 10px 6px 0px rgba(0, 0, 0, 0.75);
+}
+
+.poster {
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.movieTitle {
+    margin-top: 10px;
+    max-width: 200px;
+    text-align: center;
+    color: #5585b5;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+
+a {
+    text-decoration: none;
+}

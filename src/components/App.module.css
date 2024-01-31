@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    padding: 25px;
+    background-color: #79c2d0;
+   
+}
+
+.navLink {
+    padding: 0px 10px;
+    color: #5585b5;
+    font-weight: 600;
+    background-color: #79c2d0;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #38598b;
+}
+
+a:focus {
+    outline: none;
+}
+
+.main {
+    padding: 30px 0 30px;
+}

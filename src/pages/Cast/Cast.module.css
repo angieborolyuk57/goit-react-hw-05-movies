@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 30px;
+}
+
+.castTitle {
+    margin-bottom: 20px;
+    letter-spacing: 0.02em;
+}
+
+.castList {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1080px;
+}
+
+.castItemImg {
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.actorDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    text-align: center;
+    max-width: 200px;
+    margin-top: 10px;
+}
+
+.actorName {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+.actorCharacter {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+.actorCharacter>span {
+    color: #38598b;
+}
+
+.characterColor {
+    color: #38598b;
+}

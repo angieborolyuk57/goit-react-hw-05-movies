@@ -1,0 +1,38 @@
+.reviewsTitle {
+    margin-bottom: 20px;
+    letter-spacing: 0.02em;
+}
+
+.reviewAuthor {
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+.reviewAuthor>span {
+    color: #a2a8d3;
+}
+
+.reviewContent {
+    margin-bottom: 8px;
+    line-height: 1.4em;
+    letter-spacing: 0.02em;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-word;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+
+}
+
+.noReviews {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    letter-spacing: 0.02em;
+}

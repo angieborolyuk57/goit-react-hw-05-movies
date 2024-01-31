@@ -1,0 +1,109 @@
+.container {
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.goBackBtn {
+    padding: 2px 15px;
+    color: #5585b5;
+    font-weight: 600;
+    background-color: #a2a8d3;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.goBackBtn:hover {
+    background-color: #79c2d0;
+    color: #38598b;
+}
+
+.goBackBtn:focus {
+    outline: none;
+}
+
+.title {
+    margin-top: 20px;
+    color: #5585b5;
+    letter-spacing: 0.02em;
+}
+
+.movieContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.poster {
+    width: 302px;
+    height: 452px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.detailsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.detailsTitle {
+    margin-bottom: 5px;
+    letter-spacing: 0.02em;
+}
+
+.details {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+.detailsRating {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.detailsRating>span {
+    color: #5585b5;
+}
+
+.detailsOverview {
+    composes: detailsRating;
+    max-width: 600px;
+}
+
+.detailsGenres {
+    composes: detailsRating;
+    gap: 2px;
+}
+
+.detailsBudget {
+    composes: detailsRating;
+}
+
+.detailsReleaseDate {
+    composes: detailsRating;
+}
+
+
+.addInfoContainer {
+    padding: 20px 0;
+}
+
+.linkContainer {
+    display: flex;
+    gap: 6px;
+}
+
+.castBtn {
+    width: 100px;
+    text-align: center;
+    composes: goBackBtn;
+}
+
+.reviewsBtn {
+    width: 100px;
+    text-align: center;
+    composes: goBackBtn;
+}
